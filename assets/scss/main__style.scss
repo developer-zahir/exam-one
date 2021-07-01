@@ -1,8 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.fixed__width {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+html {
+    font-size: 16px;
+}
+$rubik: 'Rubik', sans-serif;
+$Nunito: 'Nunito', sans-serif;
+$main_color: #21a7d0;
+$black: #111111;
+$header_top_color: #203154;
+$p_color: #adaaaa;
+$star_color: #fcb903;
+/*-- header  start--*/
+header {
+    .header__top {
+        background: $header_top_color;
+        overflow: auto;
+        padding: 14px 0;
+        font-size: 0.9rem;
+        user-select: none;
+        font-family: $rubik;
+        .header__top__left {
+            width: 50%;
+            float: left;
+            .header__top__left__inner {
+                > div {
+                    float: left;
+                    margin-left: 10px;
+                    span {
+                        color: #fff;
+                        display: inline-block;
+                        margin: 0 4px;
+                    }
+                    a {
+                        color: #fff;
+                        display: inline-block;
+                        text-decoration: none;
+                        transition: 0.4s;
+                        &:hover {
+                            color: $main_color;
+                        }
+                    }
+                    p {
+                        color: #fff;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .header__top__right {
+            width: 50%;
+            float: right;
+            .header__top__right__inner {
+                overflow: auto;
+                text-align: right;
+                > div {
+                    display: inline-block;
+                    a {
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #fff;
+                        transition: 0.4s;
+                        &:hover {
+                            color: $main_color;
+                        }
+                    }
+                    span {
+                        display: inline-block;
+                        color: #fff;
 
-$rubik:'Rubik', sans-serif;
-$Nunito:'Nunito', sans-serif;
-$main_color:#21a7d0;
-$black:#111111;
-$header_top_color:#203154;
-$p_color:#adaaaa;
-$star_color:#fcb903;
+                        .fas {
+                            color: $main_color;
+                            margin-right: 3px;
+                        }
+                    }
+                    span.slash {
+                        user-select: none;
+                    }
+                }
+                .header__top__btn{
+                    background: $main_color;
+                    padding:10px 30px ;
+                }
+            }
+        }
+    }
+}

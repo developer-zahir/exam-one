@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fixed__width {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+html {
+  font-size: 16px;
+}
+
+/*-- header  start--*/
+header .header__top {
+  background: #203154;
+  overflow: auto;
+  padding: 14px 0;
+  font-size: 0.9rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Rubik", sans-serif;
+}
+
+header .header__top .header__top__left {
+  width: 50%;
+  float: left;
+}
+
+header .header__top .header__top__left .header__top__left__inner > div {
+  float: left;
+  margin-left: 10px;
+}
+
+header .header__top .header__top__left .header__top__left__inner > div span {
+  color: #fff;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+header .header__top .header__top__left .header__top__left__inner > div a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header .header__top .header__top__left .header__top__left__inner > div a:hover {
+  color: #21a7d0;
+}
+
+header .header__top .header__top__left .header__top__left__inner > div p {
+  color: #fff;
+  display: inline-block;
+}
+
+header .header__top .header__top__right {
+  width: 50%;
+  float: right;
+}
+
+header .header__top .header__top__right .header__top__right__inner {
+  overflow: auto;
+  text-align: right;
+}
+
+header .header__top .header__top__right .header__top__right__inner > div {
+  display: inline-block;
+}
+
+header .header__top .header__top__right .header__top__right__inner > div a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header .header__top .header__top__right .header__top__right__inner > div a:hover {
+  color: #21a7d0;
+}
+
+header .header__top .header__top__right .header__top__right__inner > div span {
+  display: inline-block;
+  color: #fff;
+}
+
+header .header__top .header__top__right .header__top__right__inner > div span .fas {
+  color: #21a7d0;
+  margin-right: 3px;
+}
+
+header .header__top .header__top__right .header__top__right__inner > div span.slash {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+header .header__top .header__top__right .header__top__right__inner .header__top__btn {
+  background: #21a7d0;
+  padding: 10px 30px;
+}
+/*# sourceMappingURL=main__style.css.map */
