@@ -176,6 +176,7 @@ nav {
     position: sticky !important;
     top: 0;
     transition: 0.4s;
+    z-index: 44;
     #nav {
         > div {
             float: left;
@@ -670,7 +671,7 @@ nav {
     background: #f3f8f9;
     padding: 100px 0;
     .categories__section__title {
- @include section__title__design__noe();
+        @include section__title__design__noe();
     }
     .categories__section__main {
         overflow: auto;
@@ -685,6 +686,7 @@ nav {
                 transition: 0.4s;
                 border-radius: 5px;
                 border: 1px solid #ddd;
+                cursor: pointer;
                 > div {
                     float: left;
                     &:first-child {
@@ -730,6 +732,120 @@ nav {
                         img {
                             transform: scale(0.9) !important;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+/*-- popular__courses__secetion  start--*/
+.popular__courses__secetion {
+    padding: 100px 0;
+    background: #f9f7f8;
+    overflow: auto;
+    .popular__courses__section__tilte {
+        @include section__title__design__noe();
+    }
+    .popular__section__main {
+        margin-top: 40px;
+        .popular_course__item {
+            float: left;
+            width: 33.33%;
+            .popular__course__item__inner {
+                border: 1px solid rgba(221, 221, 221, 0.521);
+                margin: 20px;
+                padding: 25px 30px;
+                border-radius: 6px;
+                background: #f9f7f8;
+                .imgage__inner {
+                    border-radius: 5px;
+                    overflow: hidden;
+                    height: 230px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition: 0.4s;
+                    }
+                }
+                .popular__courses__content {
+                    margin: 30px 0 10px 0;
+                    p {
+                        font-size: 1.1rem;
+                        font-family: $rubik;
+                        text-transform: capitalize;
+                        color: #57666d;
+                        span {
+                            display: inline;
+                            background: #21a7d0;
+                            color: #fff;
+                            font-weight: 600;
+                            padding: 6px 15px;
+                            border-radius: 3px;
+                            margin-right: 10px;
+                        }
+                    }
+                    h2 {
+                        font-family: $Nunito;
+                        font-weight: 600;
+                        margin-top: 25px;
+                        line-height: 30px;
+                        a {
+                            text-decoration: none;
+                            color: #222;
+                            display: block;
+                        }
+                    }
+                }
+                .popular__courses__footer {
+                    overflow: auto;
+                    margin-top: 20px;
+                    > div {
+                        display: inline-block;
+                        &:first-child {
+                            width: 60%;
+                            float: left;
+                            line-height: -20px;
+                            padding: 10px 0;
+
+                            span {
+                                display: inline-block;
+                                margin-right: 6px;
+                                .fas {
+                                    color: $star_color;
+                                }
+                                p {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                        &:last-child {
+                            width: 40%;
+                            float: right;
+                            a {
+                                display: block;
+                                border: 1px solid #007eb5;
+                                padding: 10px 15px;
+                                float: right;
+                                transition: 0.4s;
+                                background: #f3f8f9;
+                                border-radius: 3px;
+                                text-decoration: none;
+                                color: #222;
+                                &:hover {
+                                    background: #007eb5;
+                                    color: #fff;
+                                }
+                                i {
+                                    display: block;
+                                    line-height: 10px;
+                                    font-size: 1.1rem;
+                                    transition: 0.4s;
+                                }
+                            }
+                        }
+                    }
+                    span {
+                        display: inline-block;
                     }
                 }
             }

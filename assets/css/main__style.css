@@ -155,6 +155,7 @@ nav {
   top: 0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  z-index: 44;
   position: relative;
 }
 
@@ -806,6 +807,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   transition: 0.4s;
   border-radius: 5px;
   border: 1px solid #ddd;
+  cursor: pointer;
 }
 
 .categories__section .categories__section__main .categories__item .categories__item__inner > div {
@@ -868,5 +870,194 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
 .categories__section .categories__section__main .categories__item .categories__item__inner:hover .image__inner img {
   -webkit-transform: scale(0.9) !important;
           transform: scale(0.9) !important;
+}
+
+/*-- popular__courses__secetion  start--*/
+.popular__courses__secetion {
+  padding: 100px 0;
+  background: #f9f7f8;
+  overflow: auto;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte {
+  margin: 0 15px;
+  overflow: auto;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte > div:first-child {
+  float: left;
+  width: 50%;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte > div:first-child h3 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #21a7d0;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte > div:first-child h2 {
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #111111;
+  margin: 5px 0 10px 0;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte > div:last-child {
+  float: right;
+  width: 50%;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte > div > div {
+  text-align: right;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte > div > div a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid #21a7d0;
+  padding: 13px 34px;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte > div > div a:hover {
+  background: #21a7d0;
+  color: #fff;
+}
+
+.popular__courses__secetion .popular__section__main {
+  margin-top: 40px;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item {
+  float: left;
+  width: 33.33%;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner {
+  border: 1px solid rgba(221, 221, 221, 0.521);
+  margin: 20px;
+  padding: 25px 30px;
+  border-radius: 6px;
+  background: #f9f7f8;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .imgage__inner {
+  border-radius: 5px;
+  overflow: hidden;
+  height: 230px;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .imgage__inner img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__content {
+  margin: 30px 0 10px 0;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__content p {
+  font-size: 1.1rem;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  color: #57666d;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__content p span {
+  display: inline;
+  background: #21a7d0;
+  color: #fff;
+  font-weight: 600;
+  padding: 6px 15px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__content h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-top: 25px;
+  line-height: 30px;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__content h2 a {
+  text-decoration: none;
+  color: #222;
+  display: block;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer {
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div {
+  display: inline-block;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div:first-child {
+  width: 60%;
+  float: left;
+  line-height: -20px;
+  padding: 10px 0;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div:first-child span {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div:first-child span .fas {
+  color: #fcb903;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div:first-child span p {
+  display: inline-block;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div:last-child {
+  width: 40%;
+  float: right;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div:last-child a {
+  display: block;
+  border: 1px solid #007eb5;
+  padding: 10px 15px;
+  float: right;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background: #f3f8f9;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #222;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div:last-child a:hover {
+  background: #007eb5;
+  color: #fff;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer > div:last-child a i {
+  display: block;
+  line-height: 10px;
+  font-size: 1.1rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer span {
+  display: inline-block;
 }
 /*# sourceMappingURL=main__style.css.map */
