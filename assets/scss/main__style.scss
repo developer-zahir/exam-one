@@ -31,6 +31,54 @@ $black: #111111;
 $header_top_color: #203154;
 $p_color: #adaaaa;
 $star_color: #fcb903;
+@mixin section__title__design__noe {
+    margin: 0 15px;
+
+    overflow: auto;
+    > div {
+        &:first-child {
+            float: left;
+            width: 50%;
+            h3 {
+                font-size: 1.1rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #21a7d0;
+            }
+            h2 {
+                text-transform: capitalize;
+                font-family: $Nunito;
+                font-size: 2.4rem;
+                font-weight: 700;
+                color: #111111;
+                margin: 5px 0 10px 0;
+            }
+        }
+        &:last-child {
+            float: right;
+            width: 50%;
+        }
+        > div {
+            text-align: right;
+            a {
+                display: inline-block;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #111;
+                font-weight: 600;
+                font-size: 1rem;
+                border: 1px solid $main_color;
+                padding: 13px 34px;
+                border-radius: 50px;
+                transition: 0.4s;
+                &:hover {
+                    background: #21a7d0;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
 /*-- header  start--*/
 
 .header__top {
@@ -516,7 +564,175 @@ nav {
             font-size: 1.1rem;
             padding: 17px 50px;
             border-radius: 50px;
+            transition: 0.4s;
+            &:hover {
+                background: #1796bd;
+            }
         }
     }
 }
 /*-- hero sectioc  end--*/
+.about__section {
+    padding: 0 0 100px 0;
+    overflow: auto;
+    margin-top: -92px;
+    .fixed__width {
+        overflow: auto;
+    }
+    .about__section__left {
+        float: left;
+        width: 60%;
+        .about__left__content__ininer {
+            background: #e7f4f6;
+            margin: 20px 30px 20px 0;
+            padding: 70px 60px;
+            border-radius: 8px;
+            h3 {
+                color: $main_color;
+                font-family: $Nunito;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            h2 {
+                color: $black;
+                font-size: 2.1rem;
+                font-family: $Nunito;
+                text-transform: capitalize;
+                font-weight: 700;
+                margin: 15px 0;
+            }
+            p {
+                font-family: $rubik;
+                color: rgb(112, 111, 111);
+                font-weight: 400;
+                line-height: 32px;
+                font-size: 1.1rem;
+            }
+            .about__footer {
+                margin: 40px 0 0 0;
+                > div {
+                    display: inline-block;
+                    margin: 0 20px 0 0;
+                    h5 {
+                        font-size: 1rem;
+                        color: #555;
+                        font-size: $rubik;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    .about__section__right {
+        float: right;
+        width: 40%;
+        .about__right__content__ininer {
+            margin: 20px 0 20px 30px;
+            > h2 {
+                text-align: center;
+                text-transform: uppercase;
+                background: $main_color;
+                color: #fff;
+                font-weight: 400;
+                font-family: $rubik;
+                padding: 15px 10px;
+            }
+            .notice__item {
+                margin: 15px 0;
+                background: #e7f4f6;
+                overflow: auto;
+                padding: 20px 10px;
+                border-radius: 4px;
+                h2 {
+                    color: $main_color;
+                    text-align: center;
+                    width: 10%;
+                    float: left;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                }
+                p {
+                    color: rgb(112, 111, 111);
+                    width: 85%;
+                    float: right;
+                    border-left: 1px solid #21a7d0;
+                    box-sizing: border-box;
+                    padding-left: 20px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+/*-- about section  end--*/
+/*-- categories section start--*/
+.categories__section {
+    background: #f3f8f9;
+    padding: 100px 0;
+    .categories__section__title {
+ @include section__title__design__noe();
+    }
+    .categories__section__main {
+        overflow: auto;
+        margin-top: 20px;
+        .categories__item {
+            float: left;
+            width: 33.33%;
+            .categories__item__inner {
+                background: #ffffff;
+                padding: 27px 22px;
+                margin: 15px;
+                transition: 0.4s;
+                border-radius: 5px;
+                border: 1px solid #ddd;
+                > div {
+                    float: left;
+                    &:first-child {
+                        margin: 0 20px 0 0;
+                        > div.image__inner {
+                            width: 70px;
+                            height: 70px;
+                            background: #d0eef4;
+                            border-radius: 50%;
+                            text-align: center;
+                            line-height: 104px;
+                            transition: 0.4s;
+                            img {
+                                display: inline-block;
+                                transition: 0.4s;
+                                transform: scale(1);
+                            }
+                        }
+                    }
+                    &:last-child {
+                        h2 {
+                            text-transform: capitalize;
+                            font-family: $Nunito;
+                            color: #222;
+                            transition: 0.4s;
+                        }
+                        span {
+                            color: #444;
+                            transition: 0.4s;
+                        }
+                    }
+                }
+                &:hover {
+                    background: #007eb5 !important;
+                    h2 {
+                        color: rgb(255, 255, 255) !important;
+                    }
+                    span {
+                        color: #ddd !important;
+                    }
+                    .image__inner {
+                        background: #fff !important;
+                        img {
+                            transform: scale(0.9) !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -609,7 +609,264 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   font-size: 1.1rem;
   padding: 17px 50px;
   border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.hero__section .hero__content a:hover {
+  background: #1796bd;
 }
 
 /*-- hero sectioc  end--*/
+.about__section {
+  padding: 0 0 100px 0;
+  overflow: auto;
+  margin-top: -92px;
+}
+
+.about__section .fixed__width {
+  overflow: auto;
+}
+
+.about__section .about__section__left {
+  float: left;
+  width: 60%;
+}
+
+.about__section .about__section__left .about__left__content__ininer {
+  background: #e7f4f6;
+  margin: 20px 30px 20px 0;
+  padding: 70px 60px;
+  border-radius: 8px;
+}
+
+.about__section .about__section__left .about__left__content__ininer h3 {
+  color: #21a7d0;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about__section .about__section__left .about__left__content__ininer h2 {
+  color: #111111;
+  font-size: 2.1rem;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.about__section .about__section__left .about__left__content__ininer p {
+  font-family: "Rubik", sans-serif;
+  color: #706f6f;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 1.1rem;
+}
+
+.about__section .about__section__left .about__left__content__ininer .about__footer {
+  margin: 40px 0 0 0;
+}
+
+.about__section .about__section__left .about__left__content__ininer .about__footer > div {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.about__section .about__section__left .about__left__content__ininer .about__footer > div h5 {
+  font-size: 1rem;
+  color: #555;
+  font-size: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.about__section .about__section__right {
+  float: right;
+  width: 40%;
+}
+
+.about__section .about__section__right .about__right__content__ininer {
+  margin: 20px 0 20px 30px;
+}
+
+.about__section .about__section__right .about__right__content__ininer > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background: #21a7d0;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  padding: 15px 10px;
+}
+
+.about__section .about__section__right .about__right__content__ininer .notice__item {
+  margin: 15px 0;
+  background: #e7f4f6;
+  overflow: auto;
+  padding: 20px 10px;
+  border-radius: 4px;
+}
+
+.about__section .about__section__right .about__right__content__ininer .notice__item h2 {
+  color: #21a7d0;
+  text-align: center;
+  width: 10%;
+  float: left;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.about__section .about__section__right .about__right__content__ininer .notice__item p {
+  color: #706f6f;
+  width: 85%;
+  float: right;
+  border-left: 1px solid #21a7d0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+/*-- about section  end--*/
+/*-- categories section start--*/
+.categories__section {
+  background: #f3f8f9;
+  padding: 100px 0;
+}
+
+.categories__section .categories__section__title {
+  margin: 0 15px;
+  overflow: auto;
+}
+
+.categories__section .categories__section__title > div:first-child {
+  float: left;
+  width: 50%;
+}
+
+.categories__section .categories__section__title > div:first-child h3 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #21a7d0;
+}
+
+.categories__section .categories__section__title > div:first-child h2 {
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #111111;
+  margin: 5px 0 10px 0;
+}
+
+.categories__section .categories__section__title > div:last-child {
+  float: right;
+  width: 50%;
+}
+
+.categories__section .categories__section__title > div > div {
+  text-align: right;
+}
+
+.categories__section .categories__section__title > div > div a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid #21a7d0;
+  padding: 13px 34px;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.categories__section .categories__section__title > div > div a:hover {
+  background: #21a7d0;
+  color: #fff;
+}
+
+.categories__section .categories__section__main {
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.categories__section .categories__section__main .categories__item {
+  float: left;
+  width: 33.33%;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner {
+  background: #ffffff;
+  padding: 27px 22px;
+  margin: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner > div {
+  float: left;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner > div:first-child {
+  margin: 0 20px 0 0;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner > div:first-child > div.image__inner {
+  width: 70px;
+  height: 70px;
+  background: #d0eef4;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 104px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner > div:first-child > div.image__inner img {
+  display: inline-block;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner > div:last-child h2 {
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+  color: #222;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner > div:last-child span {
+  color: #444;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner:hover {
+  background: #007eb5 !important;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner:hover h2 {
+  color: white !important;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner:hover span {
+  color: #ddd !important;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner:hover .image__inner {
+  background: #fff !important;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner:hover .image__inner img {
+  -webkit-transform: scale(0.9) !important;
+          transform: scale(0.9) !important;
+}
 /*# sourceMappingURL=main__style.css.map */
