@@ -7,6 +7,20 @@ img {
   max-width: 100%;
 }
 
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_rightt {
+  float: right;
+}
+
 .fixed__width {
   width: 70%;
   margin: auto;
@@ -20,7 +34,6 @@ html {
 /*-- header  start--*/
 header .header__top {
   background: #203154;
-  overflow: auto;
   font-size: 0.9rem;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -35,10 +48,6 @@ header .header__top .header__top__left {
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-header .header__top .header__top__left .header__top__left__inner {
-  overflow: auto;
 }
 
 header .header__top .header__top__left .header__top__left__inner > div {
@@ -87,7 +96,6 @@ header .header__top .header__top__right {
 }
 
 header .header__top .header__top__right .header__top__right__inner {
-  overflow: auto;
   text-align: right;
 }
 
@@ -137,11 +145,9 @@ header .header__top .header__top__right .header__top__right__inner .header__top_
 }
 
 header nav {
-  background: #ddd;
-}
-
-header nav #nav {
-  overflow: auto;
+  background: #fff;
+  border-bottom: 1px solid #000;
+  font-family: "Rubik", sans-serif;
 }
 
 header nav #nav > div {
@@ -149,7 +155,36 @@ header nav #nav > div {
   width: 25%;
 }
 
+header nav #nav .nav__left img {
+  width: 110px;
+}
+
 header nav #nav .nav__center {
   width: 50%;
+}
+
+header nav #nav .nav__center ul {
+  list-style: none;
+}
+
+header nav #nav .nav__center ul li {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav #nav .nav__center ul li a {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+}
+
+header nav #nav .nav__right {
+  position: relative;
+  text-align: right;
+}
+
+header nav #nav .nav__right .shoping__card_inner {
+  position: absolute;
+  display: none;
 }
 /*# sourceMappingURL=main__style.css.map */
