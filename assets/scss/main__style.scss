@@ -852,3 +852,53 @@ nav {
         }
     }
 }
+/*-- admission__open__section start--*/
+.admission__open__section {
+    background: #f3f8f9;
+
+    .admission__left {
+        width: 50%;
+        float: left;
+    }
+    .admission__right {
+        float: left;
+        width: 45%;
+        position: relative;
+        height: 400px;
+    }
+    .admission__right__inner {
+        margin-left: 150px;
+        transform: translateY(60%);
+        h2 {
+            font-size: 2.3rem;
+            font-family: $Nunito;
+            margin: 15px 0;
+        }
+        p {
+            color: #555;
+            font-family: $rubik;
+            font-weight: 400;
+            line-height: 30px;
+            font-size: 1.1rem;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+            background: $main_color;
+            padding: 13px 55px;
+            border-radius: 50px;
+            font-family: $rubik;
+            font-weight: 500;
+            transition: 0.4s;
+            border: 1px solid transparent;
+            margin-top: 20px;
+            &:hover {
+                color: $main_color;
+                border-color: $main_color;
+                background: transparent;
+            }
+        }
+    }
+}
