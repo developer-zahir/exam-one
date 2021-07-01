@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .fixed__width {
   width: 70%;
   margin: auto;
@@ -17,29 +21,42 @@ html {
 header .header__top {
   background: #203154;
   overflow: auto;
-  padding: 14px 0;
   font-size: 0.9rem;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   font-family: "Rubik", sans-serif;
+  font-weight: 400;
 }
 
 header .header__top .header__top__left {
   width: 50%;
   float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .header__top .header__top__left .header__top__left__inner {
+  overflow: auto;
 }
 
 header .header__top .header__top__left .header__top__left__inner > div {
   float: left;
   margin-left: 10px;
+  padding: 15px 0;
+}
+
+header .header__top .header__top__left .header__top__left__inner > div .flaticon-location {
+  font-size: 1rem;
+  display: inline-block;
 }
 
 header .header__top .header__top__left .header__top__left__inner > div span {
   color: #fff;
   display: inline-block;
   margin: 0 4px;
+  cursor: pointer;
 }
 
 header .header__top .header__top__left .header__top__left__inner > div a {
@@ -57,6 +74,11 @@ header .header__top .header__top__left .header__top__left__inner > div a:hover {
 header .header__top .header__top__left .header__top__left__inner > div p {
   color: #fff;
   display: inline-block;
+}
+
+header .header__top .header__top__left .header__top__left__inner > div:first-child {
+  border-right: 1px solid #40537a;
+  padding-right: 10px;
 }
 
 header .header__top .header__top__right {
@@ -104,6 +126,30 @@ header .header__top .header__top__right .header__top__right__inner > div span.sl
 
 header .header__top .header__top__right .header__top__right__inner .header__top__btn {
   background: #21a7d0;
-  padding: 10px 30px;
+  padding: 17px 40px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+header .header__top .header__top__right .header__top__right__inner .header__top__btn:hover {
+  color: #fff;
+  background: #1c8bad;
+}
+
+header nav {
+  background: #ddd;
+}
+
+header nav #nav {
+  overflow: auto;
+}
+
+header nav #nav > div {
+  float: left;
+  width: 25%;
+}
+
+header nav #nav .nav__center {
+  width: 50%;
 }
 /*# sourceMappingURL=main__style.css.map */

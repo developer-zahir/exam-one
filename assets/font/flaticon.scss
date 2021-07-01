@@ -1,0 +1,85 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?bc4a0ae8ee94e04b73517da469543e35") format("truetype"),
+url("./flaticon.woff?bc4a0ae8ee94e04b73517da469543e35") format("woff"),
+url("./flaticon.woff2?bc4a0ae8ee94e04b73517da469543e35") format("woff2"),
+url("./flaticon.eot?bc4a0ae8ee94e04b73517da469543e35#iefix") format("embedded-opentype"),
+url("./flaticon.svg?bc4a0ae8ee94e04b73517da469543e35#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "location": "\f101",
+    "user": "\f102",
+    "user-1": "\f103",
+    "calendar": "\f104",
+    "calendar-1": "\f105",
+    "loupe": "\f106",
+    "shopping-bag": "\f107",
+    "bag": "\f108",
+    "menu": "\f109",
+    "menu-1": "\f10a",
+    "bell": "\f10b",
+    "notification": "\f10c",
+    "right-arrow": "\f10d",
+    "left-arrow": "\f10e",
+    "left-quotes-sign": "\f10f",
+);
+
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-calendar-1:before {
+    content: map-get($flaticon-map, "calendar-1");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}
+.flaticon-bag:before {
+    content: map-get($flaticon-map, "bag");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-menu-1:before {
+    content: map-get($flaticon-map, "menu-1");
+}
+.flaticon-bell:before {
+    content: map-get($flaticon-map, "bell");
+}
+.flaticon-notification:before {
+    content: map-get($flaticon-map, "notification");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-left-quotes-sign:before {
+    content: map-get($flaticon-map, "left-quotes-sign");
+}

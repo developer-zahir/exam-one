@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+img {
+    max-width: 100%;
+}
 .fixed__width {
     width: 70%;
     margin: auto;
@@ -22,21 +25,29 @@ header {
     .header__top {
         background: $header_top_color;
         overflow: auto;
-        padding: 14px 0;
         font-size: 0.9rem;
         user-select: none;
         font-family: $rubik;
+        font-weight: 400;
         .header__top__left {
             width: 50%;
             float: left;
+            box-sizing: border-box;
             .header__top__left__inner {
+                overflow: auto;
                 > div {
                     float: left;
                     margin-left: 10px;
+                    padding: 15px 0;
+                    .flaticon-location {
+                        font-size: 1rem;
+                        display: inline-block;
+                    }
                     span {
                         color: #fff;
                         display: inline-block;
                         margin: 0 4px;
+                        cursor: pointer;
                     }
                     a {
                         color: #fff;
@@ -50,6 +61,10 @@ header {
                     p {
                         color: #fff;
                         display: inline-block;
+                    }
+                    &:first-child {
+                        border-right: 1px solid #40537a;
+                        padding-right: 10px;
                     }
                 }
             }
@@ -84,10 +99,29 @@ header {
                         user-select: none;
                     }
                 }
-                .header__top__btn{
+                .header__top__btn {
                     background: $main_color;
-                    padding:10px 30px ;
+                    padding: 17px 40px;
+                    color: #fff;
+                    margin-left: 10px;
+                    &:hover {
+                        color: #fff;
+                        background: #1c8bad;
+                    }
                 }
+            }
+        }
+    }
+    nav {
+        background: #ddd;
+        #nav {
+            overflow: auto;
+            > div {
+                float: left;
+                width: 25%;
+            }
+            .nav__center {
+                width: 50%;
             }
         }
     }
