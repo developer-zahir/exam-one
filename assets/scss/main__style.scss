@@ -125,8 +125,9 @@ nav {
     border-bottom: 1px solid #ddd;
     font-family: $rubik;
     box-shadow: 0 4px 8px #ddd;
-    position: sticky;
+    position: sticky !important;
     top: 0;
+    transition: 0.4s;
     #nav {
         > div {
             float: left;
@@ -300,10 +301,8 @@ nav {
             > div.clear {
                 > div.item {
                     display: inline-block;
-                    margin: 0 5px;
                     font-size: 1.1rem;
-                    margin-left: -4px;
-                    margin-right: 12px;
+                    padding: 0 6px;
                     i {
                         display: block;
                         padding: 44px 0;
@@ -316,13 +315,13 @@ nav {
             }
             label {
                 cursor: pointer;
-            }
-            input#toggle {
                 &:hover + .shoping__card {
                     opacity: 1;
-                    transform: translateY(0);
                     visibility: visible;
+                    transform: translateY(-8px);
                 }
+            }
+            input#toggle {
                 &:checked {
                     + label {
                         color: $main_color;
@@ -330,43 +329,146 @@ nav {
                     ~ .shoping__card {
                         opacity: 1;
                         visibility: visible;
-                        transform: translateY(0);
+                        transform: translateY(-8px);
                     }
                 }
             }
             .shoping__card {
                 position: absolute;
                 top: 100%;
-                background: red;
+                background: $main_color;
                 width: 300px;
                 left: 0;
                 opacity: 0;
                 visibility: hidden;
                 transition: 0.4s;
-                transform: translateY(10px);
+                transform: translateY(40px);
+                padding: 30px 20px;
+                box-sizing: border-box;
                 .shoping__card_inner {
-                    padding: 20px;
                     .shoping__item {
-                        background: green;
-                        margin: 3px 0;
+                        margin-bottom: 18px;
                         > div {
                             float: left;
                         }
-                        .product_title{
-                            width:30%;
-                            background: #000;
-                            h6{
+                        .select {
+                            width: 10%;
+                            position: relative;
+                            top: 0.3rem;
+                            label {
+                                display: block;
+                                width: 20px;
+                                height: 20px;
+                                border-radius: 50%;
+                                border: 1px solid #fff;
+                                transition: 0.4s;
+                                position: relative;
+                                &:hover {
+                                    &::before {
+                                        color: $header_top_color;
+                                        opacity: 0;
+                                        visibility: hidden;
+                                    }
+                                    &::after {
+                                        color: $header_top_color;
+                                        opacity: 1;
+                                        visibility: visible;
+                                    }
+                                }
+                                &::before {
+                                    content: '\f067';
+                                    font-family: 'font awesome 5 free';
+                                    font-weight: 600;
+                                    position: absolute;
+                                    text-align: center;
+                                    top: 0.2rem;
+                                    left: 0;
+                                    right: 0;
+                                    font-size: 13px;
+                                    margin: auto;
+                                    color: #fff;
+                                    transition: 0.4s;
+                                }
+                                &::after {
+                                    content: '\f00d';
+                                    font-family: 'font awesome 5 free';
+                                    font-weight: 600;
+                                    position: absolute;
+                                    text-align: center;
+                                    top: 0.2rem;
+                                    left: 0;
+                                    right: 0;
+                                    font-size: 13px;
+                                    margin: auto;
+                                    color: #fff;
+                                    transition: 0.4s;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                }
+                            }
+                        }
+                        .product_title {
+                            width: 65%;
+                            text-align: center;
+                            h6 {
+                                a {
+                                    color: #fff;
+                                    font-size: 1rem;
+                                    font-weight: 400;
+                                    font-family: $rubik;
+                                    text-decoration: none;
+                                    display: block;
+                                    transition: 0.6s;
+                                    &:hover {
+                                        color: $header_top_color;
+                                    }
+                                }
+                            }
+                            span {
                                 color: #fff;
-                                font-size: 1rem;
                                 font-weight: 400;
                                 font-family: $rubik;
+                                font-size: 0.9rem;
                             }
-                           span{
-                                color: #fff;
-                                background: blue;
-                                i{
-                                    display: inline-block;
-                                }
+                        }
+                        .image_div {
+                            width: 25%;
+                            text-align: right;
+                            img {
+                                height: 45px;
+                            }
+                        }
+                    }
+                    .soping_card__footer {
+                        border-top: 1px solid rgba(221, 221, 221, 0.24);
+                        margin-top: 20px;
+                        padding: 5px 0;
+                        text-align: center;
+                        h3 {
+                            color: #fff;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            text-align: center;
+                        }
+                        a {
+                            display: inline-block;
+                            text-decoration: none;
+                            text-transform: capitalize;
+                            color: #fff;
+                            font-size: 1rem;
+                            background: $header_top_color;
+                            padding: 8px 14px;
+                            margin-top: 15px;
+                            border-radius: 3px;
+                            transition: 0.4s;
+                            &:hover {
+                                color: #dddd;
+                            }
+                            &:first-child {
+                                margin-right: 10px;
+                            }
+                            &:last-child {
+                                margin-left: 10px;
                             }
                         }
                     }
@@ -379,3 +481,42 @@ nav {
 #toggle {
     display: none;
 }
+/*-- header sectioc  end--*/
+/*-- hero sectioc  start--*/
+.hero__section {
+    background: url(../image/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    .hero__content {
+        margin: auto;
+        padding: 145px 0 410px 0;
+        h1 {
+            font-family: $Nunito;
+            font-size: 3.1rem;
+        }
+        p {
+            font-family: $rubik;
+            font-weight: 400;
+            font-size: 1.1rem;
+            color: #444;
+
+            width: 45%;
+            margin: 16px auto;
+            line-height: 30px;
+        }
+        a {
+            text-transform: uppercase;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: $rubik;
+            background: $main_color;
+            color: #fff;
+            font-size: 1.1rem;
+            padding: 17px 50px;
+            border-radius: 50px;
+        }
+    }
+}
+/*-- hero sectioc  end--*/
