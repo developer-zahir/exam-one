@@ -24,6 +24,10 @@ img {
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    ::selection {
+        background: #64c2dec0;
+        color: #fff;
+    }
 }
 $rubik: 'Rubik', sans-serif;
 $Nunito: 'Nunito', sans-serif;
@@ -356,6 +360,29 @@ nav {
                                     color: $main_color;
                                 }
                             }
+                            position: relative;
+                            &:hover > ul {
+                                opacity: 1;
+                                transform: translateY(0);
+                                visibility: visible;
+                            }
+                            > ul {
+                                position: absolute;
+                                top: 0;
+                                right: 115%;
+                                width: 250px;
+                                background: #fff;
+                                padding: 20px 30px;
+                                box-sizing: border-box;
+                                text-align: left;
+                                transition: 0.3s ease-in;
+                                box-shadow: 0 2px 10px rgba(177, 191, 204, 0.384);
+                                list-style: none;
+                                opacity: 0;
+                                visibility: hidden;
+                                transform: translateY(20px);
+                                border-radius: 3px;
+                            }
                         }
                     }
                 }
@@ -388,7 +415,7 @@ nav {
                 top: 100%;
                 background: $main_color;
                 width: 300px;
-                left: 0;
+                left: -45px;
                 opacity: 0;
                 visibility: hidden;
                 transition: 0.4s;
@@ -578,7 +605,7 @@ nav {
 .about__section {
     padding: 0 0 100px 0;
     overflow: auto;
-    margin-top: -92px;
+    margin-top: -90px;
     .fixed__width {
         overflow: auto;
     }
@@ -638,10 +665,10 @@ nav {
                 color: #fff;
                 font-weight: 400;
                 font-family: $rubik;
-                padding: 15px 10px;
+                padding: 20px 10px;
             }
             .notice__item {
-                margin: 15px 0;
+                margin: 14px 0;
                 background: #e7f4f6;
                 overflow: auto;
                 padding: 20px 10px;
@@ -653,6 +680,9 @@ nav {
                     float: left;
                     font-size: 1.1rem;
                     font-weight: 500;
+                    font-family: $rubik;
+                    margin-top: 10px;
+                    margin-left: 5px;
                 }
                 p {
                     color: rgb(112, 111, 111);
@@ -662,6 +692,7 @@ nav {
                     box-sizing: border-box;
                     padding-left: 20px;
                     line-height: 30px;
+                    font-family: $rubik;
                 }
             }
         }
@@ -699,11 +730,13 @@ nav {
                             background: #d0eef4;
                             border-radius: 50%;
                             text-align: center;
-                            line-height: 104px;
+                            line-height: 92px;
                             transition: 0.4s;
                             img {
                                 display: inline-block;
                                 transition: 0.4s;
+                                width: 34px;
+                                height: 34px;
                                 transform: scale(1);
                             }
                         }
@@ -857,16 +890,25 @@ nav {
 /*-- admission__open__section start--*/
 .admission__open__section {
     background: #f3f8f9;
-
+    height: 597px;
+    overflow: hidden;
     .admission__left {
         width: 50%;
+        height: 100%;
         float: left;
+        .admission__left__inner {
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100% !important;
+            }
+        }
     }
     .admission__right {
         float: left;
         width: 45%;
         position: relative;
-        height: 400px;
     }
     .admission__right__inner {
         margin-left: 150px;
@@ -1094,6 +1136,20 @@ nav {
     padding: 100px 0;
     .teacher__section__title {
         @include section__title__design__noe();
+        span {
+            margin-left: -9px;
+            display: inline-block;
+            i {
+                display: block;
+                transition: 0.4s;
+                cursor: pointer;
+                padding: 0 10px;
+                transform: translateY(2px);
+                &:hover {
+                    color: #21a7d0;
+                }
+            }
+        }
     }
     .tacher__section__main {
         margin-top: 60px;
@@ -1108,6 +1164,7 @@ nav {
                 cursor: pointer;
                 img {
                     width: 100%;
+                    height: 100%;
                 }
                 &:hover {
                     .teacher__hover {
@@ -1209,6 +1266,8 @@ nav {
             font-family: $rubik;
             line-height: 30px;
             margin-bottom: 20px;
+            font-style: italic;
+            text-align: justify;
         }
         .icon {
             margin: auto;
@@ -1313,16 +1372,29 @@ nav {
                                 margin-left: 9px;
                                 font-family: $rubik;
                                 font-size: 1rem;
+                                transition: 0.4s;
+                                &:hover {
+                                    color: #21a7d0;
+                                }
                             }
                         }
                         h2 {
-                            font-family: $Nunito;
-                            font-weight: 700;
-                            color: #222;
-                            line-height: 34px;
-                            margin: 17px 0;
+                            a {
+                                display: block;
+                                text-decoration: none;
+                                font-family: $Nunito !important;
+                                text-decoration: none;
+                                font-size: 1.4rem;
+                                font-weight: 700;
+                                color: #555;
+                                transition: 0.4s;
+                                margin: 20px;
+                                &:hover {
+                                    color: $main_color;
+                                }
+                            }
                         }
-                        a {
+                        > a {
                             text-decoration: none;
                             text-transform: uppercase;
                             font-family: $rubik;
@@ -1561,8 +1633,8 @@ footer {
                     }
                     > span {
                         color: #fff;
-                        font-family: $rubik;
-                        font-weight: 400;
+                        font-family: $Nunito;
+                        font-weight: 300;
                         margin: 10px 0;
                         &:first-child {
                             width: 10%;
@@ -1621,12 +1693,12 @@ footer {
                     a {
                         color: #fff;
                         display: block;
-                        width: 33px;
-                        height: 33px;
+                        width: 36px;
+                        height: 36px;
                         border-radius: 50%;
                         background: $main_color;
                         color: #ffff;
-                        line-height: 33px;
+                        line-height: 36px;
                         margin: 0 4px;
                         transition: 0.4s;
                         &:hover {
@@ -1658,4 +1730,14 @@ footer {
     &:hover {
         background: $header_top_color;
     }
+}
+// scroll bar design----
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: #21a7d0;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #273c66;
 }

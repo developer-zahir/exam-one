@@ -1,3 +1,294 @@
-body{
-    font-family: 'Roboto', sans-serif;
+//media query
+body {
+    overflow-x: hidden;
+}
+@media all and (max-width: 1740px) {
+    .admission__open__section .admission__right__inner {
+        transform: translateY(50%);
+    }
+}
+//media query
+@media all and (max-width: 1692px) {
+    .latest__news__section
+        .latest__news__section__main
+        .latest__news__secton__left
+        .latest__news__section__lsft__inner
+        article
+        .articale__content
+        span {
+        margin-right: 12px;
+        margin-top: 7px;
+    }
+}
+@media all and (max-width: 1656px) {
+    .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner {
+        margin: 13px;
+    }
+    .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+        height: 377px;
+    }
+    footer .footer__top__section {
+        padding: 52px 40px;
+        margin-top: -220px;
+    }
+}
+//media query
+@media all and (max-width: 1600px) {
+    .latest__news__section
+        .latest__news__section__main
+        .latest__news__secton__left
+        .latest__news__section__lsft__inner
+        article
+        .articale__content
+        h2
+        a {
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+    .latest__news__section
+        .latest__news__section__main
+        .latest__news__secton__left
+        .latest__news__section__lsft__inner
+        article
+        .articale__content
+        span {
+        margin-right: 8px;
+        margin-top: 7px;
+    }
+    .fixed__width {
+        width: 80%;
+    }
+}
+//media query
+@media all and (max-width: 1590px) {
+    .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner {
+        padding: 15px 15px;
+    }
+    .admission__open__section .admission__right__inner {
+        transform: translateY(51%);
+    }
+    .header__top {
+        font-size: 0.8rem;
+    }
+    .question__section .question__section__right {
+        height: 522px;
+    }
+    .question__section .question__section__left .question__section__left__inner {
+        padding: 52px 23px;
+    }
+    .question__section {
+        height: 513px;
+        .fixed__width {
+            height: 100%;
+        }
+    }
+}
+//media query
+@media all and (max-width: 1549px) {
+    footer .footer__center__section .footer__center__item .address li > span {
+        font-size: 0.9rem;
+    }
+    .about__section .about__section__left .about__left__content__ininer {
+        padding: 70px 34px;
+    }
+    .admission__open__section .admission__right__inner {
+        margin-left: 113px;
+    }
+}
+//media query
+@media all and (max-width: 1518px) {
+    .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+        margin: 13px;
+    }
+}
+//media query
+@media all and (max-width: 1497px) {
+    .testimonial__section .testimonial__inner {
+        padding: 13px 22px;
+    }
+    .testimonial__section .testimonial__inner .icon {
+        margin-bottom: 0px;
+    }
+    .testimonial__section .testimonial__inner p {
+        font-size: 1rem;
+        line-height: 28px;
+    }
+}
+//media query
+@media all and (max-width: 1457px) {
+    .hero__section .hero__content {
+        padding: 145px 0 339px 0;
+    }
+    .about__section .about__section__left .about__left__content__ininer h2 {
+        font-size: 1.9rem;
+    }
+    .question__section .question__section__left .question__section__left__inner {
+        padding: 29px 23px;
+    }
+    .hero__section .hero__content p {
+        width: 66%;
+    }
+    footer .footer__bottom__section .footer__bottom__item .footer__bottom__item__inenr p {
+        font-size: 0.9rem;
+    }
+    .fixed__width {
+        width: 90%;
+    }
+    .question__section .question__section__left .question__section__left__inner {
+        padding: 51px 23px;
+    }
+    .about__section .about__section__right .about__right__content__ininer .notice__item {
+        margin: 8px 0;
+        padding: 18px 10px;
+    }
+    .about__section .about__section__right .about__right__content__ininer > h2 {
+        padding: 22px 10px;
+    }
+}
+//media query
+@media all and (max-width: 1440px) {
+    footer .footer__top__section .footer__top__right .footer__top__right__inner form {
+        margin-top: 35px;
+    }
+    .about__section .about__section__left .about__left__content__ininer {
+        padding: 56px 34px;
+    }
+}
+//media query
+@media all and (max-width: 1400px) {
+    .admission__open__section .admission__right__inner {
+        margin-left: 81px;
+    }
+}
+//media query
+@media all and (max-width: 1300px) {
+    .admission__open__section .admission__right__inner {
+        transform: translateY(41%);
+    }
+}
+//media query
+@media all and (max-width: 1235px) {
+    .categories__section .categories__section__main .categories__item .categories__item__inner {
+        > div {
+            float: none;
+            text-align: center;
+            margin: auto;
+        }
+        h2 {
+            margin: 6px 0;
+        }
+        .image__inner {
+            text-align: center;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+    }
+}
+//media query
+@media all and (max-width: 1181px) {
+    .about__section .about__section__right .about__right__content__ininer .notice__item {
+    }
+    .about__section .about__section__right .about__right__content__ininer .notice__item h2 {
+    }
+    .about__section .about__section__right .about__right__content__ininer .notice__item p {
+        line-height: 23px;
+    }
+    .hero__section .hero__content {
+        padding: 145px 0 298px 0;
+    }
+    .admission__open__section .admission__right__inner {
+        transform: translateY(10%);
+    }
+    .admission__open__section {
+        height: 503px;
+    }
+    .question__section {
+        height: 503px;
+        .question__section__left,
+        .question__section__right {
+            height: 100%;
+            .question__section__left__inner,
+            .question__section__left__inner {
+                height: 100%;
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .question__section .question__section__right .question__section__right__inner {
+        height: 100%;
+        img {
+            height: 100%;
+        }
+    }
+}
+//media query
+@media all and (max-width: 1110px) {
+    .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner {
+        margin-left: 20px;
+    }
+    .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner {
+        margin-right: 22px;
+    }
+}
+//media query
+@media all and (max-width: 1000px) {
+    .fixed__width {
+        width: 85%;
+    }
+    .about__section {
+        .about__section__left {
+            width: 100%;
+            float: none;
+        }
+        .about__section__right {
+            width: 100%;
+            float: none;
+            .about__right__content__ininer {
+                margin: 0;
+                margin-top: 50px;
+                .notice__item {
+                    padding: 40px inherit;
+                    margin-top: 15px;
+                    h2 {
+                        position: relative;
+                        &::before {
+                            content: '';
+                            width: 1px;
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            background: #21a7d063;
+                        }
+                    }
+                    p {
+                        border-left: none;
+                        margin-top: 13px;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+    .categories__section .categories__section__main .categories__item {
+        float: left;
+        width: 50%;
+        .categories__item__inner {
+            > div {
+                float: left;
+                text-align: left;
+                margin: auto;
+            }
+            h2 {
+                margin: 6px 0;
+            }
+            .image__inner {
+                text-align: center;
+                margin: auto;
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
