@@ -228,12 +228,50 @@ span {
   }
 }
 
+@media all and (max-width: 1140px) {
+  .popular__courses__secetion .popular__section__main .popular_course__item {
+    width: 50% !important;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner {
+    height: 500px;
+    padding: 25px;
+    margin: 20px;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .imgage__inner {
+    height: 290px;
+  }
+}
+
 @media all and (max-width: 1110px) {
   .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner {
     margin-left: 20px;
   }
   .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner {
     margin-right: 22px;
+  }
+  footer .footer__top__section .footer__top__left .footer__top__left__inner h1 {
+    font-size: 1.7rem !important;
+    line-height: 34px;
+  }
+  footer .footer__top__section .footer__top__right .footer__top__right__inner {
+    overflow: hidden;
+    margin: 0 0px;
+  }
+  footer .footer__top__section .footer__top__right .footer__top__right__inner form {
+    margin-top: 22px;
+  }
+  footer .footer__top__section {
+    margin-top: -194px;
+  }
+  .latest__news__section {
+    padding: 100px 0 259px 0;
+  }
+  footer .footer__center__section .footer__center__item {
+    width: 33.33%;
+    float: left;
+  }
+  footer .footer__center__section .footer__center__item .address {
+    display: none;
   }
 }
 
@@ -253,26 +291,47 @@ span {
     margin: 0;
     margin-top: 50px;
   }
+  .about__section .about__section__right .about__right__content__ininer > h2 {
+    margin-bottom: 20px !important;
+  }
   .about__section .about__section__right .about__right__content__ininer .notice__item {
-    padding: 40px inherit;
-    margin-top: 15px;
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+  }
+  .about__section .about__section__right .about__right__content__ininer .notice__item .notice__item__inner {
+    background: #d0eef4;
+    padding: 20px;
+    overflow: auto;
+    margin: 10px;
+    border-radius: 3px;
   }
   .about__section .about__section__right .about__right__content__ininer .notice__item h2 {
+    padding-right: 15px;
+    font-size: 1.4rem;
+    margin-top: 18px;
+  }
+  .about__section .about__section__right .about__right__content__ininer .notice__item p {
+    border-left: none !important;
+    margin-top: 0;
+    padding: 0;
+    padding-left: 15px;
+    width: 80%;
+    line-height: 30px;
     position: relative;
   }
-  .about__section .about__section__right .about__right__content__ininer .notice__item h2::before {
+  .about__section .about__section__right .about__right__content__ininer .notice__item p::before {
     content: '';
     width: 1px;
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;
+    left: -9px;
     background: #21a7d063;
-  }
-  .about__section .about__section__right .about__right__content__ininer .notice__item p {
-    border-left: none;
-    margin-top: 13px;
-    padding: 0;
   }
   .categories__section .categories__section__main .categories__item {
     float: left;
@@ -290,6 +349,748 @@ span {
     text-align: center;
     margin: auto;
     margin-bottom: 15px;
+  }
+  .admission__open__section {
+    height: auto !important;
+  }
+  .admission__open__section .admission__left {
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+  .admission__open__section .admission__right {
+    float: none;
+    width: 100%;
+    position: relative;
+  }
+  .admission__open__section .admission__right .admission__right__inner {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    margin: 0;
+    padding: 70px 70px;
+  }
+  .admission__open__section .admission__right .admission__right__inner h2 {
+    margin-top: 0;
+  }
+  .question__section {
+    height: auto !important;
+  }
+  .question__section .its__for__mobile {
+    display: block;
+  }
+  .question__section .its__for__desktop {
+    display: none;
+  }
+  .question__section .question__section__left,
+  .question__section .question__section__right {
+    width: 100%;
+    float: none;
+  }
+  .question__section .question__section__left .question__section__left__inner,
+  .question__section .question__section__right .question__section__left__inner {
+    padding: 60px;
+  }
+  .teacher__section .tacher__section__main .teacher__item {
+    float: left;
+    width: 50%;
+  }
+  .testimonial__section .testimonial__inner {
+    margin: 20px 13px;
+    padding: 40px 25px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner {
+    margin-right: 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left {
+    width: 100%;
+    float: none;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .image__inner img {
+    width: 100%;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content {
+    width: 47%;
+    float: right;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px !important;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content span {
+    margin-bottom: 5px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .mobile__visible {
+    display: block;
+    font-family: "Rubik", sans-serif;
+    color: #555;
+    line-height: 24px;
+    font-size: 1rem;
+    margin-bottom: 13px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content h2 {
+    margin: 0;
+    padding: 7px 0;
+    line-height: 26px;
+    font-size: 0.9rem;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content h2 a {
+    margin: 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .read__more {
+    margin-top: 9px;
+    font-size: 0.9rem;
+    display: block;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner {
+    margin-left: 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__section__right {
+    width: 100%;
+    float: none;
+  }
+  footer .footer__bottom__section .footer__bottom__item .footer__bottom__item__inenr img {
+    width: 109px;
+  }
+  .testimonial__section .testimonial__inner p {
+    font-size: 0.9rem;
+  }
+  footer .footer__bottom__section .footer__bottom__item {
+    width: 50%;
+  }
+  footer .footer__bottom__section .footer__bottom__item:first-child {
+    display: none;
+  }
+  footer .footer__bottom__section .footer__bottom__item:nth-child(2) {
+    text-align-last: left;
+  }
+  footer .footer__bottom__section .footer__bottom__item:last-child ul {
+    text-align: right;
+  }
+  footer .footer__bottom__section .footer__bottom__item:last-child ul li a {
+    text-align: center;
+  }
+  footer .footer__bottom__section .footer__bottom__item footer .footer__bottom__section .footer__bottom__item ul li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  footer .footer__bottom__section .footer__bottom__item #scroll__top {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    bottom: 40px;
+    right: 15px;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner {
+    margin: 10px;
+  }
+  .about__section .about__section__left .about__left__content__ininer {
+    margin: 0;
+  }
+  .header__top {
+    font-size: 0.8rem;
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+}
+
+@media all and (max-width: 982px) {
+  footer .footer__top__section .footer__top__left {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  footer .footer__top__section .footer__top__right {
+    width: 100%;
+    float: none;
+  }
+  .latest__news__section {
+    padding: 100px 0 232px 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
+    height: 530px !important;
+    width: 50%;
+    float: left;
+    padding: 0;
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner {
+    background: #fff;
+    border: 1px solid rgba(221, 221, 221, 0.747);
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner .articale__content {
+    padding: 20px 20px !important;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .image__inner {
+    width: 100%;
+    float: none;
+    height: 100%;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content {
+    width: 100%;
+    float: none;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px !important;
+  }
+}
+
+@media all and (max-width: 876px) {
+  .categories__section .categories__section__main .categories__item .categories__item__inner {
+    text-align: center;
+  }
+  .categories__section .categories__section__main .categories__item .categories__item__inner > div {
+    width: 100%;
+    float: none;
+  }
+  .categories__section .categories__section__main .categories__item .categories__item__inner > div {
+    text-align: center !important;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item {
+    width: 100% !important;
+    float: none;
+    margin: 20px 0;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner {
+    overflow: auto;
+    height: auto;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .imgage__inner {
+    width: 48%;
+    float: left;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__courses__content {
+    float: right;
+    width: 49%;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__courses__content p.mobile__device__visible {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #555;
+    line-height: 26px;
+    margin-top: 7px;
+    display: block;
+  }
+  .testimonial__section .testimonial__inner p {
+    font-size: 0.8rem;
+    line-height: 24px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
+    height: 252px;
+  }
+  .hero__section .hero__content h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .hero__section .hero__content p {
+    font-size: 1rem;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .hero__section .hero__content a {
+    font-size: 1rem;
+    padding: 15px 44px;
+  }
+  .about__section .about__section__left .about__left__content__ininer p {
+    line-height: 29px;
+    font-size: 1rem;
+  }
+  .about__section .about__section__left .about__left__content__ininer {
+    padding: 39px 34px;
+  }
+  .about__section .about__section__right .about__right__content__ininer .notice__item {
+    width: 100%;
+    float: none;
+  }
+  .about__section .about__section__right .about__right__content__ininer .notice__item h2 {
+    margin-top: 0 !important;
+  }
+  .categories__section .categories__section__title > div:first-child h2 {
+    font-size: 2rem;
+  }
+  .popular__courses__secetion .popular__courses__section__tilte > div > div a {
+    font-size: 0.9rem;
+    padding: 9px 20px;
+    margin-top: 10px;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__content {
+    margin: 11px 0 10px 0;
+  }
+  .about__section .about__section__left .about__left__content__ininer {
+    padding: 14px 34px;
+  }
+}
+
+@media all and (max-width: 798px) {
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .imgage__inner {
+    width: 100%;
+    height: auto;
+  }
+  .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__content {
+    margin: 30px 0 10px 0;
+    width: 100%;
+  }
+  .teacher__section .tacher__section__main .teacher__item {
+    float: none;
+    margin: 40px auto;
+    width: 90%;
+    border: 1px solid rgba(221, 221, 221, 0.514);
+  }
+  .testimonial__section .tastimonian__left,
+  .testimonial__section .tastimonian__right {
+    width: 100%;
+    float: none;
+  }
+  .testimonial__section .testimonial__inner p {
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+  }
+  .testimonial__section .testimonial__inner {
+    margin: 58px 13px;
+    padding: 40px 25px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
+    height: auto !important;
+    width: 100%;
+  }
+  .latest__news__section
+.latest__news__section__main
+.latest__news__secton__left
+.latest__news__section__lsft__inner
+article
+.artical__inner
+.articale__content {
+    padding: 39px 20px !important;
+  }
+  .latest__news__section
+.latest__news__section__main
+.latest__news__secton__left
+.latest__news__section__lsft__inner
+article
+.image__inner:hover
+img {
+    -webkit-filter: grayscale(50%);
+            filter: grayscale(50%);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  footer .footer__bottom__section .footer__bottom__item .footer__bottom__item__inenr p {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (max-width: 678px) {
+  .categories__section .categories__section__main .categories__item {
+    float: none;
+    width: 100%;
+  }
+  .categories__section .categories__section__main .categories__item .categories__item__inner > div:first-child {
+    float: left;
+    width: 30%;
+    margin: 0;
+  }
+  .categories__section .categories__section__main .categories__item .categories__item__inner > div:last-child {
+    width: 70%;
+    float: right;
+  }
+  .categories__section .categories__section__main .categories__item .categories__item__inner > div:last-child .cat__content {
+    text-align: left;
+  }
+  .popular__courses__section__tilte div:last-child,
+  .categories__section .categories__section__title div:last-child {
+    display: none;
+  }
+  .popular__courses__section__tilte div:first-child,
+  .categories__section .categories__section__title div:first-child {
+    width: 100% !important;
+    float: none;
+    text-align: center;
+  }
+  .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+    margin: 13px;
+  }
+  .testimonial__section .testimonial__controler {
+    margin-top: 96px;
+  }
+  .mobile__view__all__btn {
+    display: block;
+    text-align: center;
+    margin: 90px 0 0 0;
+  }
+  .mobile__view__all__btn a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #21a7d0;
+    padding: 13px 34px;
+    border-radius: 50px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .mobile__view__all__btn a:hover {
+    background: #21a7d0;
+    color: #fff;
+  }
+  .teacher__section .teacher__section__title div {
+    width: 70% !important;
+  }
+  .teacher__section .teacher__section__title div.arrow {
+    width: 30% !important;
+  }
+  footer .footer__center__section .footer__center__item {
+    width: 50%;
+    float: left;
+  }
+  footer .footer__center__section .footer__center__item .address {
+    display: block;
+  }
+  footer .footer__center__section .footer__center__item .footer__center__item__inner h2 {
+    margin-top: 56px;
+  }
+  footer .footer__bottom__section .footer__bottom__item {
+    text-align-last: center;
+    width: 100%;
+  }
+  footer .footer__bottom__section .footer__bottom__item p {
+    text-align: center !important;
+  }
+  footer .footer__bottom__section .footer__bottom__item:nth-child(2) {
+    text-align-last: center;
+  }
+}
+
+@media all and (max-width: 559px) {
+  .question__section .question__section__left .question__section__left__inner,
+  .question__section .question__section__right .question__section__left__inner {
+    padding: 27px;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details summary {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+  .teacher__section .teacher__section__title > div:first-child h2 {
+    font-size: 1.6rem;
+  }
+  .hero__section .hero__content p {
+    font-size: 0.9rem;
+    line-height: 26px;
+    margin-top: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  .fixed__width {
+    width: 88% !important;
+  }
+  .about__section .about__section__left .about__left__content__ininer h2 {
+    font-size: 1.4rem;
+  }
+  .hero__section .hero__content p {
+    margin: auto;
+    width: 86%;
+    margin-bottom: 30px;
+  }
+  .about__section {
+    margin-top: 50px;
+  }
+  .hero__section {
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 432px) {
+  .fixed__width {
+    width: 94% !important;
+  }
+  footer .footer__center__section .footer__center__item {
+    width: 100%;
+    float: none;
+  }
+  footer .footer__top__section {
+    padding: 31px 16px;
+    margin-top: -220px;
+  }
+  footer .footer__top__section .footer__top__left .footer__top__left__inner h1 {
+    font-size: 1.3rem !important;
+    line-height: 26px;
+  }
+  footer .footer__top__section .footer__top__left .footer__top__left__inner h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  footer .footer__top__section .footer__top__right .footer__top__right__inner form input[type='submit'] {
+    position: static;
+    padding: 13px 50px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 3px;
+  }
+  footer .footer__top__section .footer__top__right .footer__top__right__inner form {
+    text-align: center;
+  }
+  footer .footer__center__section .footer__center__item {
+    padding-left: 36px;
+  }
+  .latest__news__section
+.latest__news__section__main
+.latest__news__section__right
+.latest__news__section__right__inner
+.news__item
+.news__content
+h2
+a {
+    font-size: 1.1rem;
+  }
+  .latest__news__section
+.latest__news__section__main
+.latest__news__section__right
+.latest__news__section__right__inner
+.news__item
+.news__date
+h3 {
+    font-size: 2rem;
+  }
+  .latest__news__section .latest__news__section__main {
+    margin-top: 46px;
+  }
+  .teacher__section {
+    padding: 37px 0;
+  }
+  .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+    height: 346px;
+  }
+  .question__section .question__section__left .question__section__left__inner h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    color: #222;
+    margin-bottom: 40px;
+  }
+  .admission__open__section .admission__right .admission__right__inner {
+    padding: 27px;
+  }
+  .popular__courses__secetion {
+    padding: 67px 0;
+  }
+  .about__section .about__section__left .about__left__content__ininer {
+    padding: 17px 20px;
+  }
+  .hero__section .hero__content {
+    padding: 145px 0 145px 0;
+  }
+  .hero__section .hero__content p {
+    font-size: 0.9rem;
+    line-height: 21px;
+    text-align: center;
+    margin: auto;
+    margin-top: 11px;
+  }
+  .hero__content {
+    text-align: center;
+    margin: auto;
+  }
+  .hero__section .hero__content a {
+    font-size: 1rem;
+    padding: 15px 44px;
+    margin-top: 17px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .categories__section .categories__section__main .categories__item .categories__item__inner > div:last-child {
+    width: 100%;
+    float: none;
+  }
+  .categories__section .categories__section__main .categories__item .categories__item__inner > div:first-child {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+  .cat__content {
+    text-align: center !important;
+  }
+  .popular__course__item__inner {
+    margin: 0 !important;
+  }
+  .mobile__view__all__btn {
+    margin: 64px 0 0 0;
+  }
+  .fixed__width {
+    width: 100% !important;
+  }
+  .testimonial__section .testimonial__inner p {
+    font-size: 0.8rem;
+    line-height: 21px;
+  }
+  .testimonial__section .testimonial__inner .icon {
+    font-size: 2.8rem;
+  }
+  .testimonial__section .testimonial__inner {
+    padding: 26px 25px;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details[open] {
+    height: 13rem;
+  }
+  .latest__news__section .latest__news__section__tilte h2 {
+    font-size: 1, 0.6rem;
+  }
+  .latest__news__section {
+    padding: 60px 0 232px 0;
+  }
+  .teacher__section {
+    padding: 52px 0;
+  }
+  .testimonial__section .testimonial__tilte h2 {
+    font-size: 1.4rem;
+  }
+  .testimonial__section {
+    padding: 59px 0;
+  }
+  .question__section {
+    margin: 0;
+  }
+  .admission__open__section .admission__right .admission__right__inner {
+    padding-bottom: 60px;
+  }
+  .categories__section {
+    padding: 59px 0;
+  }
+  .about__section .about__section__left .about__left__content__ininer .about__footer > div {
+    display: inline-block;
+    margin: 0 10px 0 0;
+  }
+  .about__section .about__section__left .about__left__content__ininer .about__footer img {
+    width: 70px;
+  }
+  .about__section .about__section__left .about__left__content__ininer p {
+    line-height: 24px;
+    font-size: 0.9rem;
+  }
+  .about__section .about__section__left .about__left__content__ininer {
+    border-radius: 0;
+  }
+  .hero__section .hero__content h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  .hero__section .hero__content a {
+    font-size: 0.9rem;
+    padding: 9px 20px;
+    margin-top: 17px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  html {
+    font-size: 13px;
+  }
+  footer .footer__bottom__section .footer__bottom__item ul li a {
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+  }
+  footer .footer__bottom__section {
+    margin-top: 31px;
+    padding-top: 11px;
+  }
+  footer .footer__center__section .footer__center__item .footer__center__item__inner h2 {
+    margin-bottom: 13px;
+    margin-top: 30px;
+  }
+  footer .footer__top__section {
+    display: none;
+  }
+  footer {
+    padding: 20px 0 40px 0;
+  }
+  .latest__news__section
+.latest__news__section__main
+.latest__news__section__right
+.latest__news__section__right__inner
+.news__item
+.news__content
+h2
+a {
+    font-size: 1rem;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner .news__item .news__date {
+    width: 30%;
+    padding: 16px 0;
+    margin-right: 10px;
+  }
+  .latest__news__section {
+    padding: 60px 0 0px 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner {
+    margin: 0;
+  }
+  .latest__news__section
+.latest__news__section__main
+.latest__news__secton__left
+.latest__news__section__lsft__inner
+article
+.artical__inner
+.articale__content {
+    padding: 14px 20px !important;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
+    width: 100%;
+    margin: 12px 0;
+  }
+  .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+    height: 281px;
+  }
+  .teacher__section {
+    padding: 21px 0;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details p {
+    line-height: 17px;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details summary {
+    font-size: 0.8rem;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details[open] {
+    height: 15rem;
+  }
+  .admission__open__section .admission__right__inner p {
+    line-height: 22px;
+    font-size: 1rem;
+  }
+  .about__section .about__section__right .about__right__content__ininer .notice__item p::before {
+    left: 5px;
+  }
+  .about__section .about__section__right .about__right__content__ininer .notice__item p {
+    padding-left: 15px;
+    width: 80%;
+    line-height: 18px;
+  }
+  .about__section .about__section__right .about__right__content__ininer .notice__item h2 {
+    margin-top: 5px;
+  }
+  .about__section .about__section__left .about__left__content__ininer .about__footer > div {
+    display: block;
+    margin: 0 10px 0 0;
+  }
+  .about__section .about__section__left .about__left__content__ininer .about__footer {
+    text-align: center;
+  }
+  .about__section {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

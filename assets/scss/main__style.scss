@@ -230,17 +230,7 @@ nav {
                         font-weight: 500;
                         color: #444;
                         position: relative;
-                        &:hover {
-                            color: $main_color;
-                            &::after {
-                                opacity: 0;
-                                visibility: hidden;
-                            }
-                            &::before {
-                                opacity: 1;
-                                visibility: visible;
-                            }
-                        }
+
                         &::after {
                             content: '\f067';
                             font-family: 'font awesome 5 free';
@@ -264,12 +254,23 @@ nav {
                             visibility: hidden;
                         }
                     }
-                    &:hover {
+                    &:hover > {
                         .mega__menu,
                         .dropdoun__menu {
                             opacity: 1;
                             visibility: visible;
                             transform: translateY(-10px);
+                        }
+                    }
+                    &:hover a {
+                        color: $main_color;
+                        &::after {
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+                        &::before {
+                            opacity: 1;
+                            visibility: visible;
                         }
                     }
                     position: relative;
@@ -348,6 +349,9 @@ nav {
                         visibility: hidden;
                         li {
                             display: block;
+                            &:hover > a {
+                                color: $main_color;
+                            }
                             a {
                                 text-decoration: none;
                                 color: #444;
@@ -356,9 +360,7 @@ nav {
                                 font-family: $rubik;
                                 font-size: 15px;
                                 transition: 0.4s;
-                                &:hover {
-                                    color: $main_color;
-                                }
+                              
                             }
                             position: relative;
                             &:hover > ul {
@@ -693,6 +695,11 @@ nav {
                     padding-left: 20px;
                     line-height: 30px;
                     font-family: $rubik;
+                    transition: 0.4s;
+                    cursor: pointer;
+                    &:hover {
+                        color: #203154;
+                    }
                 }
             }
         }
@@ -1740,4 +1747,16 @@ footer {
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #273c66;
+}
+.its__for__mobile {
+    display: none;
+}
+.mobile__visible {
+    display: none;
+}
+p.mobile__device__visible {
+    display: none;
+}
+.mobile__view__all__btn{
+    display: none;
 }
