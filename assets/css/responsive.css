@@ -185,6 +185,11 @@ span {
     margin: auto;
     margin-bottom: 15px;
   }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span {
+    display: inline-block;
+    margin-right: 0;
+    margin-top: 20px;
+  }
 }
 
 @media all and (max-width: 1181px) {
@@ -272,6 +277,39 @@ span {
   }
   footer .footer__center__section .footer__center__item .address {
     display: none;
+  }
+  .question__section .question__section__left .question__section__left__inner h2 {
+    font-size: 2rem;
+    margin-bottom: 22px;
+  }
+  .header__top {
+    font-size: 0.8rem;
+    display: none;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details summary {
+    padding: 14px 40px;
+    font-size: .9rem;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details:not([open]) {
+    height: 3.6rem;
+  }
+  .question__section {
+    margin: 0 0;
+  }
+  .question__section .fixed__width {
+    width: 100%;
+  }
+  .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+    height: 337px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner .news__item .news__content h2 a {
+    font-size: 1.3rem;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span i {
+    font-size: 0.7rem;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner h2 a {
+    font-size: 1.3rem;
   }
 }
 
@@ -487,9 +525,26 @@ span {
   .about__section .about__section__left .about__left__content__ininer {
     margin: 0;
   }
-  .header__top {
-    font-size: 0.8rem;
-    display: none;
+  .question__section {
+    height: 441px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
+    height: 290px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner h2 a {
+    margin: 3px 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .mobile__visible {
+    line-height: 27px;
+  }
+  .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+    height: 373px;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details:not([open]) {
+    height: 4rem;
+  }
+  .question__section .question__section__left .question__section__left__inner .question__item details summary {
+    padding: 19px 40px;
   }
   nav {
     display: none;
@@ -505,43 +560,6 @@ span {
   footer .footer__top__section .footer__top__right {
     width: 100%;
     float: none;
-  }
-  .latest__news__section {
-    padding: 100px 0 232px 0;
-  }
-  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
-    height: 530px !important;
-    width: 50%;
-    float: left;
-    padding: 0;
-    background: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
-    border-radius: 0;
-  }
-  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner {
-    background: #fff;
-    border: 1px solid rgba(221, 221, 221, 0.747);
-    margin: 20px;
-    overflow: hidden;
-    border-radius: 3px;
-  }
-  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner .articale__content {
-    padding: 20px 20px !important;
-  }
-  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .image__inner {
-    width: 100%;
-    float: none;
-    height: 100%;
-  }
-  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content {
-    width: 100%;
-    float: none;
-    text-align: left;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    padding: 10px !important;
   }
 }
 
@@ -632,7 +650,7 @@ span {
   }
 }
 
-@media all and (max-width: 798px) {
+@media all and (max-width: 800px) {
   .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .imgage__inner {
     width: 100%;
     height: auto;
@@ -688,6 +706,61 @@ img {
   }
   footer .footer__bottom__section .footer__bottom__item .footer__bottom__item__inenr p {
     font-size: 0.8rem;
+  }
+  .latest__news__section {
+    padding: 100px 0 232px 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
+    height: auto !important;
+    width: 50%;
+    float: left;
+    padding: 0;
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner {
+    background: #fff;
+    border: 1px solid rgba(221, 221, 221, 0.747);
+    margin: 20px 10px;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner .articale__content {
+    padding: 20px 20px !important;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .image__inner {
+    width: 100%;
+    float: none;
+    height: 100%;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content {
+    width: 100%;
+    float: none;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px !important;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span {
+    margin-top: 0;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
+    width: 100%;
+  }
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner .articale__content {
+    padding: 35px 20px !important;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .admission__open__section .admission__right .admission__right__inner {
+    padding: 51px 29px;
+  }
+  .question__section .question__section__left .question__section__left__inner, .question__section .question__section__right .question__section__left__inner {
+    padding: 51px 29px;
   }
 }
 
@@ -810,15 +883,28 @@ img {
   .hero__section {
     background-size: cover;
   }
-}
-
-@media all and (max-width: 432px) {
-  .fixed__width {
-    width: 94% !important;
+  .question__section .fixed__width {
+    width: 100% !important;
   }
-  footer .footer__center__section .footer__center__item {
-    width: 100%;
-    float: none;
+  .about__section .about__section__left .about__left__content__ininer p {
+    line-height: 24px;
+    font-size: .9rem;
+  }
+  .about__section .about__section__left .about__left__content__ininer h2 {
+    font-size: 1.2rem;
+    margin: 4px 0;
+  }
+  .about__section .about__section__left .about__left__content__ininer .about__footer {
+    margin: 22px 0 0 0;
+  }
+  .categories__section {
+    padding: 51px 0;
+  }
+  .mobile__view__all__btn {
+    margin: 62px 0 0 0;
+  }
+  footer .footer__top__section {
+    margin-top: -234px;
   }
   footer .footer__top__section {
     padding: 31px 16px;
@@ -838,6 +924,19 @@ img {
     text-align: center;
     margin-top: 15px;
     border-radius: 3px;
+  }
+  .about__section {
+    padding: 0 0 47px 0;
+  }
+}
+
+@media all and (max-width: 432px) {
+  .fixed__width {
+    width: 94% !important;
+  }
+  footer .footer__center__section .footer__center__item {
+    width: 100%;
+    float: none;
   }
   footer .footer__top__section .footer__top__right .footer__top__right__inner form {
     text-align: center;
@@ -908,6 +1007,13 @@ h3 {
     font-size: 1rem;
     padding: 15px 44px;
     margin-top: 17px;
+  }
+  .admission__open__section .admission__right__inner h2 {
+    font-size: 1.6rem;
+  }
+  .admission__open__section .admission__right__inner p {
+    line-height: 25px;
+    font-size: 1rem;
   }
 }
 
@@ -1091,6 +1197,15 @@ article
   }
   .about__section {
     margin-top: 0;
+  }
+  .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+    height: 227px;
+  }
+  .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner .teacher__hover .teacher__hover__content h3 {
+    margin-top: 70px;
+  }
+  .teacher__section .teacher__section__title span {
+    display: none;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

@@ -1274,6 +1274,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 3px;
+  font-family: "Nunito", sans-serif;
 }
 
 .question__section .question__section__left .question__section__left__inner .question__item details summary:hover {
@@ -1288,6 +1289,8 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   line-height: 25px;
+  font-family: "Rubik", sans-serif;
+  color: #222;
 }
 
 .question__section .question__section__right {
@@ -1739,15 +1742,20 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   border-radius: 3px;
 }
 
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner {
+  height: 100%;
+}
+
 .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .image__inner {
   width: 50%;
   float: left;
   height: 100%;
   overflow: hidden;
-  margin-right: 20px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .image__inner:hover img {
@@ -1762,26 +1770,32 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
 }
 
 .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content {
-  padding: 20px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  width: 50%;
+  float: right;
+  overflow: hidden;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content span {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner {
+  padding: 0  10px;
+}
+
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span {
   display: inline-block;
   margin-right: 20px;
   margin-top: 20px;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content span i {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span i {
   color: #555;
   font-size: 0.9rem;
   display: inline-block;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content span a {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span a {
   text-decoration: none;
   color: #555;
   text-transform: capitalize;
@@ -1792,11 +1806,11 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   transition: 0.4s;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content span a:hover {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span a:hover {
   color: #21a7d0;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content h2 a {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner h2 a {
   display: block;
   text-decoration: none;
   font-family: "Nunito", sans-serif !important;
@@ -1806,14 +1820,14 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   color: #555;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  margin: 20px;
+  margin: 20px 0;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content h2 a:hover {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner h2 a:hover {
   color: #21a7d0;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content > a {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner > a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Rubik", sans-serif;
@@ -1823,17 +1837,17 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   transition: 0.4s;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content > a i {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner > a i {
   display: inline-block;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content > a:hover {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner > a:hover {
   color: #21a7d0;
 }
 
-.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content > a:hover i {
+.latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner > a:hover i {
   padding-left: 3px;
 }
 
