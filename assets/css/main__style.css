@@ -2240,7 +2240,7 @@ footer .footer__bottom__section .footer__bottom__item ul li a:hover {
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
