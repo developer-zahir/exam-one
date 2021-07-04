@@ -928,6 +928,12 @@ img {
   .about__section {
     padding: 0 0 47px 0;
   }
+  footer {
+    overflow: hidden;
+  }
+  footer .fixed__width {
+    width: 100% !important;
+  }
 }
 
 @media all and (max-width: 432px) {
@@ -1207,5 +1213,9 @@ article
   .teacher__section .teacher__section__title span {
     display: none;
   }
+}
+
+body {
+  background: red;
 }
 /*# sourceMappingURL=responsive.css.map */

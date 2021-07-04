@@ -970,7 +970,12 @@ $star_color: #fcb903;
     .about__section {
         padding: 0 0 47px 0;
     }
-
+    footer{
+        overflow: hidden;
+    }
+footer .fixed__width {
+	width: 100% !important;
+}
 }
 //media query
 @media all and (max-width: 432px) {
@@ -1253,4 +1258,7 @@ $star_color: #fcb903;
      
         display: none;
     }
+}
+body{
+    background: red;
 }
