@@ -1780,7 +1780,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
 }
 
 .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner {
-  padding: 0  10px;
+  padding: 0 10px;
 }
 
 .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span {
@@ -2264,6 +2264,18 @@ p.mobile__device__visible {
 }
 
 .mobile__view__all__btn {
+  display: none;
+}
+
+nav > div.logo__inner {
+  display: none;
+}
+
+#nav div.logo__inner {
+  display: block;
+}
+
+#mobile___menu {
   display: none;
 }
 /*# sourceMappingURL=main__style.css.map */
