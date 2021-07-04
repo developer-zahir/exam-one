@@ -1257,13 +1257,18 @@ $star_color: #fcb903;
     .about__section {
         padding: 0 0 47px 0;
     }
-    footer {
-        overflow: hidden;
+    footer .footer__center__section .footer__center__item {
+        box-sizing: border-box;
+        padding-left: 15px;
     }
     footer .fixed__width {
         width: 100% !important;
     }
-
+    footer .address {
+        li span {
+            font-size: 0.7rem !important;
+        }
+    }
     #nav {
         ::-webkit-scrollbar {
             display: none;
@@ -1422,6 +1427,11 @@ $star_color: #fcb903;
     .admission__open__section .admission__right__inner p {
         line-height: 25px;
         font-size: 1rem;
+    }
+    footer .address {
+        li span {
+            font-size: 0.9rem !important;
+        }
     }
 }
 
@@ -1624,5 +1634,96 @@ $star_color: #fcb903;
     }
     #mobile__menu__toggle {
         top: 11px;
+    }
+}
+
+//media query
+@media all and (max-width: 250px) {
+    html {
+        font-size: 9px;
+    }
+    .hero__section .hero__content {
+        display: none;
+    }
+    .hero__section {
+        padding: 120px 0;
+    }
+    .about__section .about__section__left .about__left__content__ininer p {
+        line-height: 13px;
+    }
+    .about__section .about__section__right .about__right__content__ininer .notice__item p {
+        padding-left: 15px;
+        width: 77%;
+        line-height: 11px;
+    }
+    .categories__section {
+        padding: 36px 0;
+    }
+    .popular__courses__secetion .popular__section__main .popular_course__item .popular__courses__content p.mobile__device__visible {
+        line-height: 17px;
+    }
+    .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__content h2 a {
+        line-height: 19px;
+    }
+    .popular__courses__secetion .popular__section__main .popular_course__item {
+        border-radius: 0;
+    }
+    .popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner {
+        padding: 0px;
+        border-radius: 0;
+    }
+    .admission__open__section .admission__right__inner p {
+        line-height: 16px;
+    }
+    .question__section__left__inner {
+        display: none;
+    }
+    .teacher__section .tacher__section__main {
+        margin-top: 0;
+    }
+    .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
+        height: 201px;
+    }
+    .teacher__section .tacher__section__main .teacher__item {
+        margin: 20px auto;
+    }
+    .testimonial__section .testimonial__inner p {
+        font-size: 0.8rem;
+        line-height: 12px;
+    }
+    .testimonial__section .testimonial__controler {
+        width: 88%;
+        margin-top: 40px;
+    }
+    .testimonial__section .testimonial__controler button {
+        width: 24px;
+        height: 5px;
+    }
+    .latest__news__section
+        .latest__news__section__main
+        .latest__news__secton__left
+        .latest__news__section__lsft__inner
+        article
+        .articale__content
+        .mobile__visible {
+        line-height: 17px;
+    }
+    .latest__news__section
+        .latest__news__section__main
+        .latest__news__secton__left
+        .latest__news__section__lsft__inner
+        article
+        .articale__content
+        h2 {
+        line-height: 16px;
+    }
+    .latest__news__section
+        .latest__news__section__main
+        .latest__news__secton__left
+        .latest__news__section__lsft__inner
+        article
+        .articale__content
+        .articale__content__inner {
+        padding: 0;
     }
 }
