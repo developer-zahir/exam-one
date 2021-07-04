@@ -2267,6 +2267,10 @@ p.mobile__device__visible {
   display: none;
 }
 
+.mobile__view__all__btn a {
+  font-family: "Nunito", sans-serif;
+}
+
 nav > div.logo__inner {
   display: none;
 }

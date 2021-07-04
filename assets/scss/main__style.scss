@@ -1769,6 +1769,9 @@ p.mobile__device__visible {
 }
 .mobile__view__all__btn {
     display: none;
+    a{
+        font-family: $Nunito;
+    }
 }
 nav > div.logo__inner {
     display: none;
