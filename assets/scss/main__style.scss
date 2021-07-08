@@ -29,6 +29,7 @@ html {
         color: #fff;
     }
 }
+
 $rubik: 'Rubik', sans-serif;
 $Nunito: 'Nunito', sans-serif;
 $main_color: #21a7d0;
@@ -36,6 +37,7 @@ $black: #111111;
 $header_top_color: #203154;
 $p_color: #adaaaa;
 $star_color: #fcb903;
+
 @mixin section__title__design__noe {
     margin: 0 15px;
     overflow: auto;
@@ -47,6 +49,7 @@ $star_color: #fcb903;
                 font-size: 1.1rem;
                 text-transform: uppercase;
                 font-weight: 600;
+                font-family: $Nunito !important;
                 color: #21a7d0;
             }
             h2 {
@@ -55,6 +58,7 @@ $star_color: #fcb903;
                 font-size: 2.4rem;
                 font-weight: 700;
                 color: #111111;
+                font-family: $Nunito !important;
                 margin: 5px 0 10px 0;
             }
         }
@@ -74,6 +78,7 @@ $star_color: #fcb903;
                 border: 1px solid $main_color;
                 padding: 13px 34px;
                 border-radius: 50px;
+                font-family: $Nunito !important;
                 transition: 0.4s;
                 &:hover {
                     background: #21a7d0;
@@ -88,10 +93,10 @@ $star_color: #fcb903;
     h3 {
         color: #21a7d0;
         text-transform: uppercase;
-        font-family: $Nunito;
+        font-family: $Nunito !important;
     }
     h2 {
-        font-family: $Nunito;
+        font-family: $Nunito !important;
         text-transform: capitalize;
         font-size: 2.2rem;
         font-weight: 700;
@@ -1781,4 +1786,17 @@ nav > div.logo__inner {
 }
 #mobile___menu {
     display: none;
+}
+.teacher__section .tacher__section__main .teacher__item .teacher__itam__inner .teacher__hover .teacher__hover__content span {
+    font-family: $Nunito;
+}
+.popular__courses__secetion .popular__courses__section__tilte > div > div > a {
+    font-family: $rubik;
+}
+.categories__section .categories__section__main .categories__item .categories__item__inner {
+    font-family: $Nunito;
+}
+.categories__section .categories__section__title > div > div a {
+    font-weight: 500;
+    font-family: 'Rubik';
 }

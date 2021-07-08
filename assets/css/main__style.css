@@ -783,6 +783,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   font-size: 1.1rem;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: "Nunito", sans-serif !important;
   color: #21a7d0;
 }
 
@@ -792,6 +793,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   font-size: 2.4rem;
   font-weight: 700;
   color: #111111;
+  font-family: "Nunito", sans-serif !important;
   margin: 5px 0 10px 0;
 }
 
@@ -814,6 +816,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   border: 1px solid #21a7d0;
   padding: 13px 34px;
   border-radius: 50px;
+  font-family: "Nunito", sans-serif !important;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -929,6 +932,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   font-size: 1.1rem;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: "Nunito", sans-serif !important;
   color: #21a7d0;
 }
 
@@ -938,6 +942,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   font-size: 2.4rem;
   font-weight: 700;
   color: #111111;
+  font-family: "Nunito", sans-serif !important;
   margin: 5px 0 10px 0;
 }
 
@@ -960,6 +965,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   border: 1px solid #21a7d0;
   padding: 13px 34px;
   border-radius: 50px;
+  font-family: "Nunito", sans-serif !important;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -1424,6 +1430,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   font-size: 1.1rem;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: "Nunito", sans-serif !important;
   color: #21a7d0;
 }
 
@@ -1433,6 +1440,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   font-size: 2.4rem;
   font-weight: 700;
   color: #111111;
+  font-family: "Nunito", sans-serif !important;
   margin: 5px 0 10px 0;
 }
 
@@ -1455,6 +1463,7 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
   border: 1px solid #21a7d0;
   padding: 13px 34px;
   border-radius: 50px;
+  font-family: "Nunito", sans-serif !important;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -1602,11 +1611,11 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
 .testimonial__section .testimonial__tilte h3 {
   color: #21a7d0;
   text-transform: uppercase;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
 }
 
 .testimonial__section .testimonial__tilte h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
   text-transform: capitalize;
   font-size: 2.2rem;
   font-weight: 700;
@@ -1708,11 +1717,11 @@ nav #nav .nav__right .shoping__card .shoping__card_inner .soping_card__footer a:
 .latest__news__section .latest__news__section__tilte h3 {
   color: #21a7d0;
   text-transform: uppercase;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
 }
 
 .latest__news__section .latest__news__section__tilte h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
   text-transform: capitalize;
   font-size: 2.2rem;
   font-weight: 700;
@@ -2281,5 +2290,22 @@ nav > div.logo__inner {
 
 #mobile___menu {
   display: none;
+}
+
+.teacher__section .tacher__section__main .teacher__item .teacher__itam__inner .teacher__hover .teacher__hover__content span {
+  font-family: "Nunito", sans-serif;
+}
+
+.popular__courses__secetion .popular__courses__section__tilte > div > div > a {
+  font-family: "Rubik", sans-serif;
+}
+
+.categories__section .categories__section__main .categories__item .categories__item__inner {
+  font-family: "Nunito", sans-serif;
+}
+
+.categories__section .categories__section__title > div > div a {
+  font-weight: 500;
+  font-family: 'Rubik';
 }
 /*# sourceMappingURL=main__style.css.map */
