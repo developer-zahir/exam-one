@@ -10,13 +10,7 @@ body {
 }
 
 @media all and (max-width: 1692px) {
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-span {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content span {
     margin-right: 12px;
     margin-top: 7px;
   }
@@ -36,24 +30,11 @@ span {
 }
 
 @media all and (max-width: 1600px) {
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-h2
-a {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content h2 a {
     font-size: 1.2rem;
     margin: 20px;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-span {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content span {
     margin-right: 8px;
     margin-top: 7px;
   }
@@ -191,14 +172,7 @@ span {
     margin: auto;
     margin-bottom: 15px;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-.articale__content__inner
-span {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span {
     display: inline-block;
     margin-right: 0;
     margin-top: 20px;
@@ -315,36 +289,13 @@ span {
   .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
     height: 337px;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__section__right
-.latest__news__section__right__inner
-.news__item
-.news__content
-h2
-a {
+  .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner .news__item .news__content h2 a {
     font-size: 1.3rem;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-.articale__content__inner
-span
-i {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span i {
     font-size: 0.7rem;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-.articale__content__inner
-h2
-a {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner h2 a {
     font-size: 1.3rem;
   }
 }
@@ -570,24 +521,10 @@ a {
   .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
     height: 290px;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-.articale__content__inner
-h2
-a {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner h2 a {
     margin: 3px 0;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-.mobile__visible {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .mobile__visible {
     line-height: 27px;
   }
   .teacher__section .tacher__section__main .teacher__item .teacher__itam__inner {
@@ -764,6 +701,14 @@ article
     -webkit-transform: translateY(-26px) !important;
             transform: translateY(-26px) !important;
   }
+  .question__section .question__section__left,
+  .question__section .question__section__right {
+    height: auto;
+  }
+  .question__section .question__section__right .question__section__right__inner img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 982px) {
@@ -898,22 +843,10 @@ article
     height: auto !important;
     width: 100%;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.artical__inner
-.articale__content {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner .articale__content {
     padding: 39px 20px !important;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.image__inner:hover
-img {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .image__inner:hover img {
     -webkit-filter: grayscale(50%);
             filter: grayscale(50%);
     -webkit-transform: scale(1);
@@ -959,26 +892,13 @@ img {
             box-sizing: border-box;
     padding: 10px !important;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-.articale__content__inner
-span {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner span {
     margin-top: 0;
   }
   .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
     width: 100%;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.artical__inner
-.articale__content {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner .articale__content {
     padding: 35px 20px !important;
   }
   #nav ::-webkit-scrollbar {
@@ -1304,6 +1224,16 @@ article
   }
 }
 
+@media all and (max-width: 475px) {
+  .hero__section .hero__content h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+  .hero__section .hero__content {
+    padding: 124px 0 107px 0;
+  }
+}
+
 @media all and (max-width: 432px) {
   .fixed__width {
     width: 94% !important;
@@ -1318,23 +1248,10 @@ article
   footer .footer__center__section .footer__center__item {
     padding-left: 36px;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__section__right
-.latest__news__section__right__inner
-.news__item
-.news__content
-h2
-a {
+  .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner .news__item .news__content h2 a {
     font-size: 1.1rem;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__section__right
-.latest__news__section__right__inner
-.news__item
-.news__date
-h3 {
+  .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner .news__item .news__date h3 {
     font-size: 2rem;
   }
   .latest__news__section .latest__news__section__main {
@@ -1501,14 +1418,7 @@ h3 {
   footer {
     padding: 20px 0 40px 0;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__section__right
-.latest__news__section__right__inner
-.news__item
-.news__content
-h2
-a {
+  .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner .news__item .news__content h2 a {
     font-size: 1rem;
   }
   .latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner .news__item .news__date {
@@ -1522,13 +1432,7 @@ a {
   .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner {
     margin: 0;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.artical__inner
-.articale__content {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .artical__inner .articale__content {
     padding: 14px 20px !important;
   }
   .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article {
@@ -1593,6 +1497,9 @@ article
   #mobile__menu__toggle {
     top: 11px;
   }
+  .hero__section .hero__content {
+    padding: 91px 0 93px 0;
+  }
 }
 
 @media all and (max-width: 250px) {
@@ -1656,31 +1563,13 @@ article
     width: 24px;
     height: 5px;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-.mobile__visible {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .mobile__visible {
     line-height: 17px;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-h2 {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content h2 {
     line-height: 16px;
   }
-  .latest__news__section
-.latest__news__section__main
-.latest__news__secton__left
-.latest__news__section__lsft__inner
-article
-.articale__content
-.articale__content__inner {
+  .latest__news__section .latest__news__section__main .latest__news__secton__left .latest__news__section__lsft__inner article .articale__content .articale__content__inner {
     padding: 0;
   }
 }
