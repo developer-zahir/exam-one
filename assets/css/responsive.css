@@ -1222,6 +1222,10 @@ body {
   #mobile__menu__toggle {
     top: 20px;
   }
+  footer .footer__top__section .footer__top__right .footer__top__right__inner form {
+    margin-top: 22px;
+    text-align: center;
+  }
 }
 
 @media all and (max-width: 475px) {

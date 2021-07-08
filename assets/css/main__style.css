@@ -2308,4 +2308,18 @@ nav > div.logo__inner {
   font-weight: 500;
   font-family: 'Rubik';
 }
+
+.latest__news__section .latest__news__section__main .latest__news__section__right .latest__news__section__right__inner .news__item .news__date span {
+  font-family: "Rubik", sans-serif;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer span {
+  font-family: "Rubik", sans-serif;
+  color: #666;
+  font-weight: 400;
+}
+
+.popular__courses__secetion .popular__section__main .popular_course__item .popular__course__item__inner .popular__courses__footer span i {
+  color: #000;
+}
 /*# sourceMappingURL=main__style.css.map */
